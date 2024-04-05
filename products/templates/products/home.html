@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Home page{% endblock %}
+{% block description %}this is my description{% endblock description %}
+{% block robots %}index, follow{% endblock robots %}
+{% block keywords %}shoes, women{% endblock keywords %}
+{% block body %}
+    <h1>Hello {{name|capfirst}}</h1>
+    <p> I hear you are <strong>{{age}}</strong> years old </p>
+{% endblock %}
+{% block footer %}<p>I just wanted to try it with footer <i>yknow</i></p>{% endblock footer %}
