@@ -13,5 +13,6 @@ def index(request):
     
 
 
-
+def signup(request):
+    return render(request,"products/signup.html")
     
